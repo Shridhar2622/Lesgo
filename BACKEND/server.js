@@ -20,6 +20,6 @@ app.use("/user/api/image",imageRouter)
 
 //this is where your sevrer is running
 app.listen(PORT,()=>{
-    console.log("Server is running on",PORT);
+    console.log("Server is running",PORT);
     
 })
